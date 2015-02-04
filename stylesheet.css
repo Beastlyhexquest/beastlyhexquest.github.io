@@ -4,25 +4,25 @@ html{
 #greeting{
   color:#5f5c5b;
   font-family: Century Gothic, sans-serif;
-  font-size: 40px;
+  font-size: 120%;
   font-weight: 10;
 }
 #dotw{
   color:#5f5c5b;
   font-family: Century Gothic, sans-serif;
-  font-size: 40px;
+  font-size: 120%;
   font-weight: 10;
 }
 #timetable{
   color:#416e96;
   font-family: Century Gothic, sans-serif;
-  font-size: 110%;
+  font-size: 120%;
   font-weight: 10;
 }
 #time{
   color:#c92213;
   font-family: Century Gothic, sans-serif;
-  font-size: 30px;
+  font-size: 120%;
   font-weight: 10;
 }
 
