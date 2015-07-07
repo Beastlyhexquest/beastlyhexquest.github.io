@@ -15,7 +15,7 @@ function dotw(){
   //Monday
   "Firstly, you should have Maths. <br /><br /> Then, just before break you have Chemistry. <br /><br /> After that, you have French. <br /><br />  After that you have French again. <br /><br /> Before lunch you have English. <br /><br /> After lunch you have English again <br /><br /> Finally you have Chemistry",
   //Tuesday
-  "Firstly, you should have Physics. <br /><br /> Then, just before break you have Physics. <br /><br /> After that, you have Computing. <br /><br />  After that you have History. <br /><br /> Before lunch you have Maths. <br /><br /> After lunch you have Maths again <br /><br /> Finally you have English",
+  "P1: you should have Physics. <br /><br /> P2: just before break you have Physics. <br /><br /> P3:, you have Computing. <br /><br />  P4: you have History. <br /><br /> P5: you have Maths. <br /><br /> P6: you have Maths again <br /><br /> P7: you have English",
   //Wednesday
   "Firstly, you should have English. <br /><br /> Then, just before break you have Biology. <br /><br /> After that, you have English. <br /><br />  After that you have Computing. <br /><br /> Before lunch you have Business. <br /><br /> After lunch you have Maths <br /><br /> Finally you have Study",
   //Thursday
