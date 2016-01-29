@@ -50,13 +50,13 @@ function greet(){
   var h=today.getHours();
   var greeting;
     if (h < 10) {
-        greeting = "Good morning, Mr. Mason";
+        greeting = "Good morning, Mr. Chinery";
     } else if (h < 16) {
-        greeting = "Good day, Mr. Mason";
+        greeting = "Good day, Mr. Chinery";
     } else if (h < 22){
-        greeting = "Good evening, Mr. Mason";
+        greeting = "Good evening, Mr. Chinery";
     } else {
-      greeting = "You should be getting to sleep now, Mr Mason";
+      greeting = "You should be getting to sleep now, Mr. Chinery";
     }
     document.getElementById("greeting").innerHTML = greeting;
 }
