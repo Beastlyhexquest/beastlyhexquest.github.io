@@ -13,11 +13,11 @@ function dotw(){
   document.getElementById("dotw").innerHTML = "Today is " + "<u>" + day + "</u>";
     var timetable = ["You shouldn't be at school today..",
   //Monday
-  "Firstly, you should have Maths. <br /><br /> Then, just before break you have Chemistry. <br /><br /> After that, you have French. <br /><br />  After that you have French again. <br /><br /> Before lunch you have English. <br /><br /> After lunch you have English again <br /><br /> Finally you have Chemistry",
+  "P1:  English <br /><br /> P2:  French <br /><br /> After that, you have Business. <br /><br /> Before lunch you have History. <br /><br /> After lunch you have Maths<br /><br /> Finally you have Chemistry",
   //Tuesday
-  "P1: you should have Physics. <br /><br /> P2: just before break you have Physics. <br /><br /> P3:, you have Computing. <br /><br />  P4: you have History. <br /><br /> P5: you have Maths. <br /><br /> P6: you have Maths again <br /><br /> P7: you have English",
+  "P1:  Chemistry <br /><br /> P2: Computing <br /><br /> P3:, you have Computing. <br /><br />  P4: you have History. <br /><br /> P5: you have Maths. <br /><br /> P6: you have Maths again <br /><br /> P7: you have English",
   //Wednesday
-  "Firstly, you should have English. <br /><br /> Then, just before break you have Biology. <br /><br /> After that, you have English. <br /><br />  After that you have Computing. <br /><br /> Before lunch you have Business. <br /><br /> After lunch you have Maths <br /><br /> Finally you have Study",
+  "P1:  Maths <br /><br />P2:  Computing <br /><br />P3:  English <br /><br />P4: History <br />br/>P5: Physics <br /><br />P6: Physics",
   //Thursday
   "Firstly, you should have Biology. <br /><br /> Then, just before break you have Maths. <br /><br /> After that, you have Maths again. <br /><br />  After that you have Biology. <br /><br /> Before lunch you have English. <br /><br /> After lunch you have English again. <br /><br /> Finally you have French",
   //Friday
@@ -50,13 +50,13 @@ function greet(){
   var h=today.getHours();
   var greeting;
     if (h < 10) {
-        greeting = "Good morning, Mr. Chinery";
+        greeting = "Good morning, Mr. Mason";
     } else if (h < 16) {
-        greeting = "Good day, Mr. Chinery";
+        greeting = "Good day, Mr. Mason";
     } else if (h < 22){
-        greeting = "Good evening, Mr. Chinery";
+        greeting = "Good evening, Mr. Mason";
     } else {
-      greeting = "You should be getting to sleep now, Mr. Chinery";
+      greeting = "You should be getting to sleep now, Mr. Mason";
     }
     document.getElementById("greeting").innerHTML = greeting;
 }
